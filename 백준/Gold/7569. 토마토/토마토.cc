@@ -15,7 +15,8 @@ int n, m, h;
 vector<vector<vector<int>>> v;
 queue<node> q;
 
-int maxv = 0;
+int maxv = 1;
+int cnt = 0;
 
 void bfs() {
     int dh[] = {0, 0, 0, 0, -1, 1};
@@ -39,7 +40,13 @@ void bfs() {
             if (v[nh][nr][nc] <= v[top.h][top.row][top.col] + 1) {
                 continue;
             }
+            if (v[nh][nr][nc] == 1e9) {
+                cnt -= 1;
+            }
             v[nh][nr][nc] = v[top.h][top.row][top.col] + 1;
+            if (v[nh][nr][nc] > maxv) {
+                maxv = v[nh][nr][nc];
+            }
             q.push({ nh, nr, nc });
         }
     }
@@ -66,6 +73,7 @@ int main() {
                     row.push_back(tmp);
                 }
                 else {
+                    cnt += 1;
                     row.push_back(1e9);
                 }
             }
@@ -74,26 +82,17 @@ int main() {
         v.push_back(height);
     }
 
+    if (cnt == 0) {
+        cout << 0;
+        exit(0);
+    }
+
     bfs();
 
-    for (int i = 0; i < h; i++) {
-        for (int j = 0; j < n; j++) {
-            for (int k = 0; k < m; k++) {
-                if (v[i][j][k] == 1e9) {
-                    cout << -1;
-                    exit(0);
-                }
-                if (v[i][j][k] > maxv) {
-                    maxv = v[i][j][k];
-                }
-            }
-        }
-    }
-
-    if (maxv == 1) {
-        cout << 0;
+    if (cnt == 0) {
+        cout << maxv - 1;
     }
     else {
-        cout << maxv - 1;
+        cout << -1;
     }
 }
