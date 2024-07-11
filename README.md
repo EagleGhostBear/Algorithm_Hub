@@ -1,1 +1,1 @@
-# BaekJoonHub
+# Algorithm_Hub
