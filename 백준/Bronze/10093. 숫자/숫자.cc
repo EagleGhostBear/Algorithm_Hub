@@ -7,15 +7,15 @@ int main() {
     cout.tie(0);
     ios_base::sync_with_stdio(0);
 
-    int a, b;
+    long long a, b;
     cin >> a >> b;
-    int cnt = abs(b - a);
+    long long cnt = abs(b - a);
     if (cnt != 0) {
         cnt -= 1;
     }
-    int minv = min(a, b);
+    long long minv = min(a, b);
     cout << cnt << "\n";
-    for (int i = 1; i <= cnt; i++) {
+    for (long long i = 1; i <= cnt; i++) {
         cout << minv + i << " ";
     }
 }
