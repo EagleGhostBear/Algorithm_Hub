@@ -22,15 +22,19 @@ int main() {
     cin >> n;
     v.resize(n);
     dp.resize(n, 0);
+
+    int ans;
     for (int i = 0; i < n; i++) {
         cin >> v[i];
-    }
 
-    dp[0] = v[0];
-    int ans = dp[0];
-    for (int i = 1; i < n; i++) {
-        dp[i] = max(dp[i - 1] + v[i], v[i]);
-        ans = max(ans, dp[i]);
+        if (!i) {
+            dp[0] = v[0];
+            ans = dp[0];
+        }
+        else {
+            dp[i] = max(dp[i - 1] + v[i], v[i]);
+            ans = max(ans, dp[i]);
+        }
     }
 
     cout << ans;
