@@ -21,13 +21,10 @@ int solution(int target) { // 이분탐색으로 target과 같거나 가장 근�
 
     while (left <= right) {
         mid = (left + right) / 2;
-        if (v[mid] == target) {
+        if (left == right) {
             break;
         }
-        else if (target < v[mid]) { // 큰것 중에 가장 근접한 수
-            if (left == right) {
-                break;
-            }
+        else if (target <= v[mid]) { // 큰것 중에 가장 근접한 수
             right = mid;
         }
         else {
