@@ -16,12 +16,6 @@ struct node {
     int time;
 };
 
-struct compare_time {
-    bool operator()(node left, node right) {
-        return left.time < right.time;
-    }
-};
-
 int t;
 vector<int> v;
 vector<vector<int>> dat;
@@ -48,7 +42,7 @@ int main() {
             dat[to].push_back(from);
         }
         cin >> target;
-        queue<node> q;
+        queue<node> q; // pq를 쓰면 오히려 log 만큼의 시간이 더 걸린다
         vector<int> visited(n + 1, 0);
 
         q.push({ target, v[target] });
@@ -59,8 +53,8 @@ int main() {
             q.pop();
             ans = max(ans, now.time);
 
+            // 이미 q에 들어있는 항목들은 아래 반복문 visited에서 걸러지지 않을 수 있음
             if (now.time < visited[now.num]){continue;};
-            //cout << "print: " << now.num << " " << now.time << endl;
 
             for (int j = 0; j < dat[now.num].size(); j++) {
                 int next_num = dat[now.num][j];
