@@ -46,13 +46,12 @@ int main() {
         int from, to;
         cin >> from >> to;
         int len = to - from + 1;
+        int mid = (from + to) / 2;
         if (len % 2) { // 홀수 길이
-            int mid = (from + to) / 2;
             if (dp1[mid].first <= from && to <= dp1[mid].second) cout << "1\n";
             else cout << "0\n";
         }
         else { // 짝수 길이
-            int mid = (from + to - 1) / 2;
             if (dp2[mid].first <= from && to <= dp2[mid].second) cout << "1\n";
             else cout << "0\n";
         }
