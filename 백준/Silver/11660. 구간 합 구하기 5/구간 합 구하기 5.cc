@@ -12,7 +12,6 @@ using namespace std;
 typedef long long ll;
 
 int n, m;
-vector<vector<int>> v;
 vector<vector<int>> dp;
 
 int main() {
@@ -20,14 +19,14 @@ int main() {
     cin.tie(0); cout.tie(0);
 
     cin >> n >> m;
-    v.resize(n, vector<int>(n));
     dp.resize(n, vector<int>(n, 0));
 
     for (int i = 0; i < n; i++) {
         int total = 0;
         for (int j = 0; j < n; j++) {
-            cin >> v[i][j];
-            total += v[i][j];
+            int tmp;
+            cin >> tmp;
+            total += tmp;
             dp[i][j] = total;
             if (i > 0) dp[i][j] += dp[i - 1][j];
         }
