@@ -30,6 +30,7 @@ void melt(int row, int col) {
 
 int solution() {
     int ret = 0;
+    pair<int, int> last_q;
     int dr[] = { -1, 0, 1, 0 };
     int dc[] = { 0, 1, 0, -1 };
     while (q.size()) {
@@ -37,6 +38,7 @@ int solution() {
 
         ret++;
         melt(now.first, now.second);
+        if(v[now.first][now.second]) last_q = now;
 
         for (int i = 0; i < 4; i++) {
             int nr = now.first + dr[i];
@@ -49,6 +51,8 @@ int solution() {
             q.push({ nr, nc });
         }
     }
+    q.push(last_q);
+    visited[last_q.first][last_q.second]++;
     return ret;
 }
 
@@ -66,16 +70,8 @@ int main() {
     }
 
     int ans = 0;
-    while (cnt) {
+    while (cnt) { // 전체 개수와 BFS로 연결을 확인한 개수가 일치 하지 않으면 연결이 안된것이다.
         ans++;
-        for (int i = 0; i < n * m; i++) {
-            int row = i / m, col = i % m;
-            if (q.empty() && v[row][col]) {
-                q.push({ row, col });
-                visited[row][col]++;
-                break;
-            }
-        }
         int prev = cnt;
         int next = solution();
         if (prev != next) {
