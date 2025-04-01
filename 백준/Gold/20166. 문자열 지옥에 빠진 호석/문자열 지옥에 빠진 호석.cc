@@ -44,6 +44,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             string s = ""; s += v[i][j];
+            um[s]++;
             solution(i, j, s);
         }
     }
