@@ -1,53 +1,44 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <unordered_map>
+#include <queue>
+#include <stack>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
-vector<int> v;
+typedef long long ll;
+
+int t;
+string tmp;
+stack<int> s;
 
 int main() {
-    cin.tie(0);
     ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
 
-    int n;
-    cin >> n;
-
-    for (int i = 0; i < n; i++) {
-        string tmp;
+    cin >> t;
+    while (t--) {
         cin >> tmp;
         if (tmp == "push") {
-            int num;
-            cin >> num;
-            v.push_back(num);
+            int n;
+            cin >> n;
+            s.push(n);
         }
         else if (tmp == "pop") {
-            if (v.empty()) {
-                cout << "-1" << "\n";
-            }
-            else {
-                cout << v[v.size() - 1] << "\n";
-                v.pop_back();
-            }
+            if (s.empty()) cout << "-1\n";
+            else cout << s.top() << "\n", s.pop();
         }
-        else if (tmp == "size") {
-            cout << v.size() << "\n";
-        }
+        else if (tmp == "size") cout << s.size() << "\n";
         else if (tmp == "empty") {
-            if (v.empty()) {
-                cout << "1" << "\n";
-            }
-            else {
-                cout << "0" << "\n";
-            }
+            if (s.empty()) cout << "1\n";
+            else cout << "0\n";
         }
         else if (tmp == "top") {
-            if (v.empty()) {
-                cout << "-1" << "\n";
-            }
-            else {
-                cout << v[v.size() - 1] << "\n";
-            }
+            if (s.empty()) cout << "-1\n";
+            else cout << s.top() << "\n";
         }
     }
 }
