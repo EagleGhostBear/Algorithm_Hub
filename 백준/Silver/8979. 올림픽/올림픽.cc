@@ -13,8 +13,28 @@ using namespace std;
 
 typedef long long ll;
 
+struct node {
+    int num;
+    int g, s, b;
+};
+
+struct compare {
+    bool operator()(node left, node right) {
+        if (left.g > right.g) return true;
+        if (left.g < right.g) return false;
+
+        if (left.s > right.s) return true;
+        if (left.s < right.s) return false;
+
+        if (left.b > right.b) return true;
+        if (left.b < right.b) return false;
+
+        return false;
+    }
+};
+
 int n, k;
-vector<pair<int, int>> v;
+vector<node> v;
 
 int main() {
     ios_base::sync_with_stdio(0);
@@ -24,22 +44,20 @@ int main() {
     for (int i = 0; i < n; i++) {
         int a, b, c, d;
         cin >> a >> b >> c >> d;
-        b *= 100;
-        c *= 10;
-        v.push_back({ b + c + d, a });
+        v.push_back({ a, b, c, d });
     }
-    sort(v.begin(), v.end(), greater<pair<int, int>>());
+    sort(v.begin(), v.end(), compare());
     int score = 0;
-    pair<int, int> cnt = { -1, 1 }; // 금은동, 개수
+    pair<node, int> cnt = { {-1, -1, -1, -1}, 1}; // 금은동, 개수
     for (int i = 0; i < v.size(); i++) {
-        if (v[i].first == cnt.first) {
+        if (v[i].g == cnt.first.g && v[i].s == cnt.first.s && v[i].b == cnt.first.b) {
             cnt.second++;
         }
         else {
             score += cnt.second;
-            cnt = { v[i].first, 1 };
+            cnt = { {-1, v[i].g, v[i].s, v[i].b}, 1 };
         }
-        if (v[i].second == k) {
+        if (v[i].num == k) {
             cout << score;
             break;
         }
