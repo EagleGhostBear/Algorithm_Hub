@@ -20,28 +20,20 @@ int main() {
     cin.tie(0); cout.tie(0);
 
     cin >> n >> k;
-    for (int i = 1; i <= 16777216; i <<= 1) {
-        v.push_back(i);
-    }
+    for (int i = 1; i <= 16777216; i <<= 1) v.push_back(i);
     for (int i = v.size() - 1; i > -1; i--) {
-        if(k != 1) {
-            if (n >= v[i]) {
-                n -= v[i];
-                k--;
-            }
+        if(k != 1 && n >= v[i]) {
+            n -= v[i];
+            k--;
         }
     }
 
-    if (n == 0) {
-        cout << "0";
-    }
+    if (n == 0) cout << "0";
     else {
         for (int i = v.size() - 1; i > -1; i--) {
-            if (k == 1) {
-                if (v[i] >= n && n > v[i] / 2) {
-                    cout << v[i] - n;
-                    break;
-                }
+            if (k == 1 && v[i] >= n && n > v[i] / 2) {
+                cout << v[i] - n;
+                break;
             }
         }
     }
