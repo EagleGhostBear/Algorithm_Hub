@@ -14,16 +14,17 @@ using namespace std;
 typedef long long ll;
 
 struct node {
-    int idx, start, end, y;
+    int idx;
+    ll start, end, y;
 };
 
 struct compare {
     bool operator()(node left, node right) {
-        if (left.end < right.end) return true;
-        if (left.end > right.end) return false;
-
         if (left.start < right.start) return true;
         if (left.start > right.start) return false;
+
+        if (left.end < right.end) return true;
+        if (left.end > right.end) return false;
 
         return false;
     }
@@ -58,14 +59,13 @@ int main() {
         tree.push_back({ i, a, b, c });
     }
     sort(tree.begin(), tree.end(), compare());
-    node prev = { 0,0,0,0 };
-    for (int i = 0; i < tree.size(); i++) {
-        if (prev.idx) {
-            if (prev.start <= tree[i].start && tree[i].start <= prev.end && prev.y != tree[i].y) {
-                unite(prev.idx, tree[i].idx);
-            }
+    node prev = tree[0];
+    for (int i = 1; i < tree.size(); i++) {
+        if (prev.end >= tree[i].start && prev.y != tree[i].y) { // 일단 겹침
+            unite(prev.idx, tree[i].idx);
+            if(prev.end < tree[i].end) prev = tree[i]; // 양끝점이 prev 내부에 있지는 않음
         }
-        prev = tree[i];
+        else prev = tree[i]; // 2개가 아예 접점이 없으므로 합치지 않음
     }
     for (int i = 0; i < q; i++) {
         int a, b;
