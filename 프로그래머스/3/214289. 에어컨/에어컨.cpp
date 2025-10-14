@@ -31,7 +31,6 @@ int solution(int temperature, int t1, int t2, int a, int b, vector<int> onboard)
     }
     int answer = 1e6;
     for(auto c : dp.back()) answer = min(answer, c);
-    for(int i=0; i<dp.size(); i++) cout << dp[i][0] << " ";
     return answer;
 }
 /*
