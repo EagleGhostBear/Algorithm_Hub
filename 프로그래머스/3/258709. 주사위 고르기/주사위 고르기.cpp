@@ -7,19 +7,18 @@
 using namespace std;
 
 struct node{
-    int level, idx, bitmask;
+    int level, bitmask;
 };
 
 pair<int, int> ans = {0, 0};
 vector<map<int, int>> dp; // dp[bitmask] = {{값, 개수}, ...}
-vector<vector<pair<int, int>>> v; // v[bitmask] = {{값, 총합개수}}
 map<int, bool> m;
 
 void sel_dice(vector<vector<int>>& dice){
     queue<node> q;
     int sz = dice.size() / 2;
     for(int i=0; i<dice.size(); i++){
-        q.push({sz - 1, i, (1 << i)});
+        q.push({sz - 1, (1 << i)});
     }
     
     while(q.size()){
@@ -30,58 +29,25 @@ void sel_dice(vector<vector<int>>& dice){
             if(m[now.bitmask] || m[rbitmask]) continue;
             m[now.bitmask] = true;
             m[rbitmask] = true;
-            // 만약 정순이라면 큰수부터
-            /*
-            정순 : l 큰수부터 반복 -> r 큰수부터 탐색해서 어디부터 지는지 파악 -> 해당 조합 전부 패배
-            */
-            int i = 0;
-            for(auto c : dp[now.bitmask]){
-                v[now.bitmask].push_back({c.first, c.second});
-                // if(i) v[now.bitmask][i].second += v[now.bitmask][i - 1].second;
-                // i++;
-            }
-            i = 0;
-            for(auto c : dp[rbitmask]){
-                v[rbitmask].push_back({c.first, c.second});
-                // if(i) v[rbitmask][i].second += v[rbitmask][i - 1].second;
-                // i++;
-            }
-            // for(auto c : v[now.bitmask]) cout << c.first << ":" << c.second << " ";
-            // cout << "\n";
-            // for(auto c : v[rbitmask]) cout << c.first << ":" << c.second << " ";
-            // cout << "\n";
             
             pair<int, int> result = {0, 0};
-            for(i = 0; i<v[now.bitmask].size(); i++){
-                for(int j=0; j<v[rbitmask].size(); j++){
-                    int val = v[now.bitmask][i].second * v[rbitmask][j].second;
-                    if(v[now.bitmask][i].first > v[rbitmask][j].first) result.first += val;
-                    else if(v[now.bitmask][i].first < v[rbitmask][j].first) result.second += val;
-                }
+            for(auto a : dp[now.bitmask]) for(auto b : dp[rbitmask]){
+                int val = a.second * b.second;
+                if(a.first > b.first) result.first += val;
+                else if(a.first < b.first) result.second += val;
             }
             if(ans.first < result.first) {ans.first = result.first; ans.second = now.bitmask;}
             if(ans.first < result.second) {ans.first = result.second; ans.second = rbitmask;}
-            // for(i = 0; i<v[now.bitmask].size(); i++){
-            //     int l=0, r=v[rbitmask].size() - 1;
-            //     int mid;
-            //     while(l <= r){
-            //         mid = (l + r) / 2;
-            //         if(v[now.bitmask][i].first < v[rbitmask][mid].first){
-            //             r = mid - 1;
-            //         }
-            //         else l = mid + 1;
-            //     }
-            //     cout << v[now.bitmask][i].first << " " << v[rbitmask][mid].first << "\n";
-            // }
             continue;
         }
         
-        for(int i=now.idx + 1; i<dice.size(); i++){
+        for(int i=0; i<dice.size(); i++){
             if(now.bitmask & (1 << i)) continue;
+            if(dp[now.bitmask | (1 << i)].size()) continue;
             for(auto a : dp[now.bitmask]) for(auto b : dp[(1 << i)]){
                 dp[now.bitmask | (1 << i)][a.first + b.first] += (a.second * b.second);
             }
-            q.push({now.level - 1, i, now.bitmask | (1 << i)});
+            q.push({now.level - 1, now.bitmask | (1 << i)});
         }
     }
     return;
@@ -89,12 +55,11 @@ void sel_dice(vector<vector<int>>& dice){
 
 vector<int> solution(vector<vector<int>> dice) {
     dp.resize((1 << dice.size()) - 1, map<int, int>());
-    v.resize((1 << dice.size()) - 1, vector<pair<int, int>>());
     for(int i=0; i<dice.size(); i++) for(int j=0; j<dice[i].size(); j++) {
         dp[(1 << i)][dice[i][j]] += 1;
     }
     sel_dice(dice);
-    // cout << ans.first << " " << ans.second;
+    
     vector<int> answer;
     for(int i=0; i<dice.size(); i++){
         if(ans.second & (1 << i)) answer.push_back(i + 1);
