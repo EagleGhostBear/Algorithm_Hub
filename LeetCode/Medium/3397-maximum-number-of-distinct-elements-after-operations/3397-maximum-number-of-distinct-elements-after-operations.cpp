@@ -9,9 +9,10 @@ public:
             if(num.first < it->first - k) num.first = it->first - k;
             else if(num.first > it->first + k) it++;
             else{
-                num.first++;
-                num.second++;
-                it->second--;
+                int minv = min(it->second, it->first + k - num.first + 1);
+                num.first += minv;
+                num.second += minv;
+                it->second -= minv;
                 if(it->second == 0) it++;
             }
         }
