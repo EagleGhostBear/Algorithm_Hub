@@ -4,35 +4,21 @@ class Solution {
 public:
     int countCoveredBuildings(int n, vector<vector<int>>& buildings) {
         int ans = 0;
-        unordered_map<ll, int> board;
-        vector<vector<int>> rowList(n, vector<int>());
-        vector<vector<int>> colList(n, vector<int>());
+        vector<pair<int, int>> rowList(n, pair<int, int>({1e5+1, -1}));
+        vector<pair<int, int>> colList(n, pair<int, int>({1e5+1, -1}));
 
         for(int i=0; i<buildings.size(); i++){
-            rowList[buildings[i][0] - 1].push_back(buildings[i][1] - 1);
-            colList[buildings[i][1] - 1].push_back(buildings[i][0] - 1);
+            int row = buildings[i][0] - 1;
+            int col = buildings[i][1] - 1;
+            rowList[row].first = min(rowList[row].first, col);
+            rowList[row].second = max(rowList[row].second, col);
+            colList[col].first = min(colList[col].first, row);
+            colList[col].second = max(colList[col].second, row);
         }
-        for(int i=0; i<rowList.size(); i++){
-            sort(rowList[i].begin(), rowList[i].end());
-
-            if(rowList.size() < 2) continue;
-            for(int j=0; j<rowList[i].size(); j++){
-                ll point = (ll)i*n + rowList[i][j];
-                if(j == 0 || j == rowList[i].size() - 1) board[point] += 1;
-                else board[point] += 2;
-            }
-        }
-        for(int i=0; i<colList.size(); i++){
-            sort(colList[i].begin(), colList[i].end());
-
-            if(colList.size() < 2) continue;
-            for(int j=0; j<colList[i].size(); j++){
-                ll point = (ll)colList[i][j]*n + i;
-                if(j == 0 || j == colList[i].size() - 1) board[point] += 1;
-                else board[point] += 2;
-
-                if(board[point] == 4) ans++;
-            }
+        for(int i=0; i<buildings.size(); i++){
+            int row = buildings[i][0] - 1;
+            int col = buildings[i][1] - 1;
+            if((rowList[row].first < col && col < rowList[row].second) && (colList[col].first < row && row < colList[col].second)) ans++;
         }
         return ans;
     }
