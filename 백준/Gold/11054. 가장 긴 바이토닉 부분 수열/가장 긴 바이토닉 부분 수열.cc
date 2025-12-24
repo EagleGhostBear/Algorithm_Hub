@@ -19,21 +19,42 @@ int main() {
 
     int n;
     cin >> n;
-    if (n == 1) { cout << "1"; return 0; }
-    vector<int> nums(n), dp1(n, 1), dp2(n, 1);
+    vector<int> nums(n), lis1, lis2, dp1(n), dp2(n);
+    int maxLen1 = 0, maxLen2 = 0;
     for (int i = 0; i < n; i++) cin >> nums[i];
     for (int i = 0; i < n; i++) {
-        for (int j = i - 1; j > -1; j--) {
-            if (nums[i] > nums[j]) dp1[i] = max(dp1[i], dp1[j] + 1); // 오름차순
-            if (nums[n - 1 - i] > nums[n - 1 - j]) dp2[n - 1 - i] = max(dp2[n - 1 - i], dp2[n - 1 - j] + 1); // 내림차순
+        if (lis1.empty() || lis1.back() < nums[i]) lis1.push_back(nums[i]);
+        else {
+            int left = 0, right = lis1.size() - 1;
+            int mid = 0;
+            while (left <= right) {
+                mid = (left + right) / 2;
+                if (left == right) break;
+                else if (nums[i] <= lis1[mid]) right = mid;
+                else left = mid + 1;
+            }
+            lis1[mid] = nums[i];
         }
+        if (lis2.empty() || lis2.back() < nums[n - 1 - i]) lis2.push_back(nums[n - 1 - i]);
+        else {
+            int left = 0, right = lis2.size() - 1;
+            int mid = 0;
+            while (left <= right) {
+                mid = (left + right) / 2;
+                if (left == right) break;
+                else if (nums[n - 1 - i] <= lis2[mid]) right = mid;
+                else left = mid + 1;
+            }
+            lis2[mid] = nums[n - 1 - i];
+        }
+        maxLen1 = max(maxLen1, (int)lis1.size());
+        maxLen2 = max(maxLen2, (int)lis2.size());
+        dp1[i] = maxLen1;
+        dp2[i] = maxLen2;
     }
     int ans = 0;
-    for (int i = 0; i < n; i++) { // 양끝에 최소 1개는 있어야 바이토닉이 되기 때문
-        int left = 0, right = 0;
-        for (int j = i - 1; j > -1; j--) if (nums[j] < nums[i]) left = max(left, dp1[j]);
-        for (int j = i + 1; j < n; j++) if (nums[j] < nums[i]) right = max(right, dp2[j]);
-        ans = max(ans, left + right + 1);
+    for (int i = 0; i < n; i++) {
+        ans = max(ans, dp1[i] + dp2[n - 1 - i]  - 1);
     }
     cout << ans;
 }
