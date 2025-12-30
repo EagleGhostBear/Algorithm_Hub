@@ -32,16 +32,11 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> m >> n >> x >> y;
-        int a = 0, b = 0;
-        int left = -1, right = -2;
+        int num = x;
         int lcm = m * n / gcd(m, n);
-        while (left != right && right <= lcm) {
-            left = m * a + x;
-            right = n * b + y;
-            if (left < right) a++;
-            else b++;
-        }
-        if (left == right) cout << m * a + x << "\n";
+        while (num <= lcm && num % n != y % n) num += m;
+
+        if (num <= lcm) cout << num << "\n";
         else cout << "-1\n";
     }
 }
