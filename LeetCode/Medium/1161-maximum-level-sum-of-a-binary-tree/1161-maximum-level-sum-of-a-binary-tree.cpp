@@ -34,3 +34,6 @@ public:
         return ans.second;
     }
 };
+/*
+최대 tree depth = n = sqrt(1e4 - 3/4) - 1/2 = 99.49 = 100까지만 보면된다.
+*/
