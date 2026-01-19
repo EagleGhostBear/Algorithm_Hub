@@ -38,9 +38,9 @@ public:
                 for(int len=2; len<=50; len++){
                     if(row + len > grid.size() || col + len > grid[0].size()) break;
                     int rowVal = is_row(sumRow, row, col, len);
+                    if(rowVal < 0) continue;
                     int colVal = is_col(sumCol, row, col, len);
-                    if(rowVal < 0 || colVal < 0) continue;
-                    if(rowVal != colVal) continue;
+                    if(colVal < 0 || (rowVal != colVal)) continue;
                     if(rowVal == is_slab(grid, row, col, len)){
                         ans = max(ans, len);
                     }
