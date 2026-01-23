@@ -20,11 +20,9 @@ int main() {
     int n, k;
     cin >> n >> k;
     vector<int> v(n);
-    for (int i = 0; i < n; i++) cin >> v[i];
-
-    int ans = 0, cntK = 0;
-    int left = 0, right = -1;
-    while (left < n && ++right < n) {
+    int ans = 0, cntK = 0, left = 0;
+    for (int right = 0; right < n; right++) {
+        cin >> v[right];
         if (v[right] % 2) cntK++;
         while (cntK > k) if (v[left++] % 2) cntK--;
         ans = max(ans, right - left + 1 - cntK);
