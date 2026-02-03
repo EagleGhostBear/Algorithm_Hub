@@ -3,22 +3,20 @@ typedef long long ll;
 class Solution {
 public:
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        vector<vector<ll>> alp(26, vector<ll>(26, 1e9));
+        vector<vector<ll>> alp(26, vector<ll>(26, 1e18));
         for(int i=0; i<26; i++) alp[i][i] = 0;
         for(int i=0; i<original.size(); i++){
             int from = original[i] - 'a';
             int to = changed[i] - 'a';
             alp[from][to] = min(alp[from][to], (ll)cost[i]);
         }
-        for(int from=0; from<26; from++) for(int to=0; to<26; to++){
-            for(int mid=0; mid<26; mid++) if(alp[from][mid] < 1e9 && alp[mid][to] < 1e9){
-                alp[from][to] = min(alp[from][to], alp[from][mid] + alp[mid][to]);
-            }
+        for(int mid=0; mid<26; mid++) for(int from=0; from<26; from++) for(int to=0; to<26; to++) if(alp[from][mid] < 1e18 && alp[mid][to] < 1e18){
+            alp[from][to] = min(alp[from][to], alp[from][mid] + alp[mid][to]);
         }
         ll ans = 0;
         for(int i=0; i<source.size(); i++){
             ll now = alp[source[i] - 'a'][target[i] - 'a'];
-            if(now >= 1e9) return -1;
+            if(now >= 1e18) return -1;
             else ans += now;
         }
         return ans;
