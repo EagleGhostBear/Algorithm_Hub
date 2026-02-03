@@ -2,27 +2,24 @@ typedef long long ll;
 
 class Solution {
 public:
-    void solve(vector<vector<ll>>& alp, int from, int to, int cost){
-        if(alp[from][to] <= cost) return;
-        alp[from][to] = cost;
-        for(int i=0; i<26; i++){
-            solve(alp, i, to, alp[i][from] + cost);
-            solve(alp, from, i, cost + alp[to][i]);
-        }
-        return;
-    }
     long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
         vector<vector<ll>> alp(26, vector<ll>(26, 1e9));
+        for(int i=0; i<26; i++) alp[i][i] = 0;
         for(int i=0; i<original.size(); i++){
-            solve(alp, original[i] - 'a', changed[i] - 'a', cost[i]);
+            int from = original[i] - 'a';
+            int to = changed[i] - 'a';
+            alp[from][to] = min(alp[from][to], (ll)cost[i]);
+        }
+        for(int from=0; from<26; from++) for(int to=0; to<26; to++){
+            for(int mid=0; mid<26; mid++) if(alp[from][mid] < 1e9 && alp[mid][to] < 1e9){
+                alp[from][to] = min(alp[from][to], alp[from][mid] + alp[mid][to]);
+            }
         }
         ll ans = 0;
         for(int i=0; i<source.size(); i++){
-            if(source[i] != target[i]){
-                ll now = alp[source[i] - 'a'][target[i] - 'a'];
-                if(now >= 1e9) return -1;
-                else ans += now;
-            }
+            ll now = alp[source[i] - 'a'][target[i] - 'a'];
+            if(now >= 1e9) return -1;
+            else ans += now;
         }
         return ans;
     }
