@@ -2,49 +2,40 @@ typedef long long ll;
 
 class Solution {
 public:
-    struct node{ ll tot, weight; };
-    void addData(queue<node>& q, vector<ll>& w, node& now){
-        if(w[now.weight] < now.tot){
-            w[now.weight] = now.tot;
-            q.push(now);
-        }
-        return;
-    }
     long long maxSumTrionic(vector<int>& nums) {
         ll ans = -1e15;
-        queue<node> q;
+        vector<ll> weight(4, -1e15);
         for(int i=0; i<nums.size(); i++){
             int diff = (i ? nums[i] - nums[i - 1] : 0);
-            vector<ll> w(4, -1e15);
-            int sz = q.size();
-            for(int j=0; j<sz; j++){
-                node now = q.front(); q.pop();
-                now.tot += nums[i];
-
-                // diff = 0 생략
-                if(diff > 0){
-                    // weight = 0, 1, 2, 3
-                    if(now.weight % 2){
-                        if(now.weight == 3) ans = max(ans, now.tot);
-                        addData(q, w, now);
-                    }
-                    else{
-                        if(now.weight == 2) ans = max(ans, now.tot);
-                        now.weight += 1;
-                        addData(q, w, now);
-                    }
-                }
-                else if(diff < 0){
-                    if(now.weight == 1) {now.weight += 1; addData(q, w, now);}
-                    else if(now.weight == 2) addData(q, w, now);
-                }
+            // cout << "now: " << nums[i] << " diff: " << diff << "\n";
+            // for(auto c : weight) cout << c << " "; cout << "\n";
+            if(diff == 0){
+                ans = max(ans, weight[3]);
+                weight.assign(4, -1e15);
             }
-            sz = q.size();
-            for(int j=0; j<sz; j++){
-                node now = q.front(); q.pop();
-                if(w[now.weight] == now.tot) q.push(now);
+            else if(diff > 0){
+                // 3
+                weight[3] += nums[i];
+                // 2
+                weight[3] = max(weight[3], weight[2] + nums[i]);
+                weight[2] = -1e15;
+                // 1
+                weight[1] += nums[i];
+                // 0
+                weight[1] = max(weight[1], weight[0] + nums[i]);
+                // weight[0] = -1e15;
             }
-            q.push({nums[i], 0});
+            else{
+                // 3
+                ans = max(ans, weight[3]); weight[3] = -1e15;
+                // 2
+                weight[2] += nums[i];
+                // 1
+                weight[2] = max(weight[2], weight[1] + nums[i]);
+                weight[1] = -1e15;
+            }
+            weight[0] = nums[i];
+            ans = max(ans, weight[3]);
         }
         return ans;
     }
