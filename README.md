@@ -64,6 +64,7 @@
 | [0874-walking-robot-simulation](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0874-walking-robot-simulation/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
+| [2069-walking-robot-simulation-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2069-walking-robot-simulation-ii/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -196,4 +197,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0175-combine-two-tables](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0175-combine-two-tables/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2069-walking-robot-simulation-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2069-walking-robot-simulation-ii/) | Medium |
 <!---LeetCode Topics End-->
