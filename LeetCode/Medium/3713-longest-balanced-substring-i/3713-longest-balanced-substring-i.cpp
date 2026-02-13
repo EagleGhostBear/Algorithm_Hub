@@ -1,29 +1,18 @@
 class Solution {
 public:
-    int countType(vector<int>& v){
-        int ret = 0;
-        for(auto n : v) if(n) ret++;
-        return ret;
-    }
-    bool is_balanced(vector<int>& v, int target){
-        for(auto n : v) if(n && n != target) return false;
-        return true;
-    }
     int longestBalanced(string s) {
         int ans = 1;
-        vector<vector<int>> prefixSum(s.size(), vector<int>(26, 0));
-        for(int i=0; i<s.size(); i++){
-            if(i) prefixSum[i] = prefixSum[i - 1];
-            prefixSum[i][s[i] - 'a']++;
-        }
-        for(int right=0; right<s.size(); right++){
-            vector<int> tmp = prefixSum[right];
-            int cnt = countType(tmp);
-            for(int left=0; left<=right - ans + 1; left++){
-                if(left && --tmp[s[left - 1] - 'a'] == 0) cnt--;
+        for(int left=0; left<s.size(); left++){
+            vector<int> alp(26, 0);
+            int maxFreq = 1, cntType = 1;
+            alp[s[left] - 'a']++;
+            for(int right=left + 1; right<s.size(); right++){
+                int alpIdx = s[right] - 'a';
+                if(++alp[alpIdx] == 1) cntType++;
+                maxFreq = max(maxFreq, alp[alpIdx]);
                 int len = right - left + 1;
-                if(len % cnt) continue;
-                if(is_balanced(tmp, len / cnt)) ans = max(ans, len);
+                if(len % cntType || (len / cntType != maxFreq)) continue;
+                ans = max(ans, len);
             }
         }
         return ans;
