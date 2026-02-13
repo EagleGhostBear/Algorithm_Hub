@@ -19,7 +19,7 @@ public:
         for(int right=0; right<s.size(); right++){
             vector<int> tmp = prefixSum[right];
             int cnt = countType(tmp);
-            for(int left=0; left<right; left++){
+            for(int left=0; left<=right - ans + 1; left++){
                 if(left && --tmp[s[left - 1] - 'a'] == 0) cnt--;
                 int len = right - left + 1;
                 if(len % cnt) continue;
