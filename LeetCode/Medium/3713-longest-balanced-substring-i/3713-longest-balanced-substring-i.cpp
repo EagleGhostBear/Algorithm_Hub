@@ -10,7 +10,7 @@ public:
         return true;
     }
     int longestBalanced(string s) {
-        int ans = 0;
+        int ans = 1;
         vector<vector<int>> prefixSum(s.size(), vector<int>(26, 0));
         for(int i=0; i<s.size(); i++){
             if(i) prefixSum[i] = prefixSum[i - 1];
