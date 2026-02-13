@@ -11,19 +11,19 @@ public:
         return true;
     }
     int longestBalanced(string s) {
-        int ans = 1;
         vector<vector<int>> prefixSum(s.size(), vector<int>(26, 0));
         for(int i=0; i<s.size(); i++){
             if(i) prefixSum[i] = prefixSum[i - 1];
             prefixSum[i][s[i] - 'a']++;
         }
-        for(int sIdx=0; sIdx<s.size(); sIdx++){
-            int nowAlp = s[sIdx] - 'a';
-            for(int eIdx=s.size() - 1; eIdx>sIdx; eIdx--){
-                if(is_balanced(sIdx - 1, eIdx, prefixSum)) ans = max(ans, eIdx - sIdx + 1);
+        for(int len=s.size(); len>1; len--){
+            int sIdx, eIdx;
+            for(int i=len - 1; i<s.size(); i++){
+                eIdx = i, sIdx = eIdx - len + 1;
+                if(is_balanced(sIdx - 1, eIdx, prefixSum)) return len;
             }
         }
-        return ans;
+        return 1;
     }
 };
 /*
