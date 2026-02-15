@@ -1,23 +1,23 @@
 class Solution {
 public:
     string addBinary(string a, string b) {
-        string ans = "";
         int sz = max(a.size(), b.size());
-        int cnt = 0;
+        string ret = "";
+        int upVal = 0;
         for(int i=0; i<sz; i++){
-            int val = cnt;
-            cnt = 0;
-            if(i < a.size()) val += (a[a.size() - 1 - i] - '0');
-            if(i < b.size()) val += (b[b.size() - 1 - i] - '0');
-            if(val > 1){cnt = 1; val -= 2;}
-            ans += to_string(val);
+            int aIdx = a.size() - 1 - i;
+            int bIdx = b.size() - 1 - i;
+            int aVal = (aIdx >= 0 ? a[aIdx] - '0' : 0);
+            int bVal = (bIdx >= 0 ? b[bIdx] - '0' : 0);
+            int now = upVal + aVal + bVal;
+            upVal = 0;
+            if(now > 1){
+                upVal = 1;
+                now -= 2;
+            }
+            ret = to_string(now) + ret;
         }
-        if(cnt) ans += to_string(cnt);
-        for(int i=0; i<ans.size()/2; i++){
-            char tmp = ans[i];
-            ans[i] = ans[ans.size() - 1 - i];
-            ans[ans.size() - 1 - i] = tmp;
-        }
-        return ans;
+        if(upVal) ret = "1" + ret;
+        return ret;
     }
 };
