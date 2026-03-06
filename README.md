@@ -26,6 +26,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -35,4 +36,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 <!---LeetCode Topics End-->
