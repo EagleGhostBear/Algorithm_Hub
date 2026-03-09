@@ -13,6 +13,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0118-pascals-triangle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -70,4 +71,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1980-find-unique-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3129-find-all-possible-stable-binary-arrays-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 <!---LeetCode Topics End-->
