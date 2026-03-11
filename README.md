@@ -48,6 +48,7 @@
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1009-complement-of-base-10-integer](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
