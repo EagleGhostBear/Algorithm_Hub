@@ -16,10 +16,9 @@ public:
         if(tree->left == nullptr && tree->right == nullptr){
             if(targetSum == tot) ans = true;
         }
-        else{
-            if(tree->left) dfs(tree->left, tot + tree->left->val, targetSum);
-            if(tree->right) dfs(tree->right, tot + tree->right->val, targetSum);
-        }
+        if(tot >= targetSum) return;
+        if(tree->left) dfs(tree->left, tot + tree->left->val, targetSum);
+        if(tree->right) dfs(tree->right, tot + tree->right->val, targetSum);
         return;
     }
     bool hasPathSum(TreeNode* root, int targetSum) {
