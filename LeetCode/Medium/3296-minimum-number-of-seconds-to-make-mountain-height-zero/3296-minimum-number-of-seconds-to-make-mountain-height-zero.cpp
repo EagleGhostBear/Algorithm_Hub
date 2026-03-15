@@ -3,18 +3,15 @@ typedef long long ll;
 class Solution {
 public:
     struct node{
-        ll totTime; // 현재까지 작업 총시간(정렬 기준)
+        ll totTime; // 이 작업을 선반영한 총시간
         ll workerTime;
         ll cntWork;
         ll equalWorker;
     };
     struct compare{
-        // 실제로 봐야하는건 다음 총시간이 가장 낮은것
         bool operator()(node left, node right){
-            int nextLeft = left.workerTime * left.cntWork;
-            int nextRight = right.workerTime * right.cntWork;
-            if(left.totTime + nextLeft > right.totTime + nextRight) return true;
-            if(left.totTime + nextLeft < right.totTime + nextRight) return false;
+            if(left.totTime > right.totTime) return true;
+            if(left.totTime < right.totTime) return false;
             return false;
         }
     };
@@ -23,7 +20,7 @@ public:
         unordered_map<ll, ll> um;
         priority_queue<node, vector<node>, compare> pq;
         for(auto n : workerTimes) um[n]++;
-        for(auto n : um) pq.push({0, n.first, 1, n.second});
+        for(auto n : um) pq.push({n.first, n.first, 2, n.second});
         while(mountainHeight > 0){ // pq는 항상 있음
             node now = pq.top(); pq.pop();
             now.totTime += now.workerTime * now.cntWork++;
@@ -32,7 +29,8 @@ public:
         }
         while(pq.size()){
             node now = pq.top(); pq.pop();
-            ans = max(ans, now.totTime);
+            // 선반영된 시간을 빼야함
+            ans = max(ans, now.totTime - (now.workerTime * --now.cntWork));
         }
         return ans;
     }
