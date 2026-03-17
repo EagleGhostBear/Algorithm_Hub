@@ -10,6 +10,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -42,11 +43,13 @@
 | ------- | ------- |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -105,5 +108,6 @@
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 <!---LeetCode Topics End-->
