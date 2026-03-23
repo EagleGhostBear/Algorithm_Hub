@@ -29,6 +29,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
@@ -126,5 +127,6 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
 <!---LeetCode Topics End-->
