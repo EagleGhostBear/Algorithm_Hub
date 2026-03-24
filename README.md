@@ -8,6 +8,7 @@
 | [0118-pascals-triangle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0136-single-number](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -71,6 +72,7 @@
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0136-single-number](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1009-complement-of-base-10-integer/) | Easy |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 ## Tree
