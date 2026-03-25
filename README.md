@@ -98,6 +98,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1980-find-unique-binary-string/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -130,5 +131,10 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0125-valid-palindrome](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
+| [0141-linked-list-cycle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
 <!---LeetCode Topics End-->
