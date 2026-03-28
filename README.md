@@ -87,11 +87,13 @@
 | ------- | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -102,6 +104,7 @@
 | ------- | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
+| [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,4 +147,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0141-linked-list-cycle/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
 <!---LeetCode Topics End-->
