@@ -9,6 +9,7 @@
 | [0119-pascals-triangle-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0136-single-number](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
+| [0238-product-of-array-except-self](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -121,6 +122,7 @@
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
