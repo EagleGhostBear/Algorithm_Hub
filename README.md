@@ -22,6 +22,7 @@
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
 ## Dynamic Programming
@@ -66,6 +67,7 @@
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
 ## Greedy
@@ -130,6 +132,7 @@
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -160,4 +163,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 <!---LeetCode Topics End-->
