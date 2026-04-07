@@ -104,12 +104,14 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
+| [0145-binary-tree-postorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
+| [0145-binary-tree-postorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -121,6 +123,7 @@
 | [0111-minimum-depth-of-binary-tree](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0111-minimum-depth-of-binary-tree/) | Easy |
 | [0112-path-sum](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0112-path-sum/) | Easy |
 | [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
+| [0145-binary-tree-postorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -173,6 +176,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0144-binary-tree-preorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0144-binary-tree-preorder-traversal/) | Easy |
+| [0145-binary-tree-postorder-traversal](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0145-binary-tree-postorder-traversal/) | Easy |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
