@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -64,5 +65,10 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 <!---LeetCode Topics End-->
