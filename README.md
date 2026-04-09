@@ -27,6 +27,7 @@
 | [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3643-flip-square-submatrix-vertically/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -62,6 +63,7 @@
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1680-concatenation-of-consecutive-binary-numbers/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -181,4 +183,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3546-equal-sum-grid-partition-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3546-equal-sum-grid-partition-i/) | Medium |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3653-xor-after-range-multiplication-queries-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
 <!---LeetCode Topics End-->
