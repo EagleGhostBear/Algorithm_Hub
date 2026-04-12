@@ -191,4 +191,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3653-xor-after-range-multiplication-queries-i/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0175-combine-two-tables](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0175-combine-two-tables/) | Easy |
 <!---LeetCode Topics End-->
