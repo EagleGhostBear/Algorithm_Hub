@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -18,4 +19,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0191-number-of-1-bits](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 <!---LeetCode Topics End-->
