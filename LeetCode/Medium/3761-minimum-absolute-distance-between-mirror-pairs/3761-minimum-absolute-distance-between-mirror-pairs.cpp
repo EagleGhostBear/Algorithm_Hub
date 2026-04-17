@@ -13,8 +13,11 @@ public:
 
     int minMirrorPairDistance(vector<int>& nums) {
         int ans = 1e6;
+        unordered_map<int, bool> is_use;
         unordered_map<int, int> um;
         for(int i=0; i<nums.size(); i++){
+            if(is_use[nums[i]]) continue;
+            is_use[nums[i]] = true;
             if(um.find(nums[i]) != um.end()) ans = min(ans, i - um[nums[i]]);
             um[convert(nums[i])] = i;
         }
