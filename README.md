@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## String
@@ -39,4 +40,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 <!---LeetCode Topics End-->
