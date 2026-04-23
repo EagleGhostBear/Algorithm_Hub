@@ -46,4 +46,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0182-duplicate-emails](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0182-duplicate-emails/) | Easy |
 <!---LeetCode Topics End-->
