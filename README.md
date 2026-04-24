@@ -14,6 +14,7 @@
 | ------- | ------- |
 | [0171-excel-sheet-column-number](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0171-excel-sheet-column-number/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [2833-furthest-point-from-origin](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -42,6 +43,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [2833-furthest-point-from-origin](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
