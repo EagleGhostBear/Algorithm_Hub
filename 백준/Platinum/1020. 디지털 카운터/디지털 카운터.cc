@@ -37,7 +37,12 @@ bool isBigger(){
         int initLine = getLine(s.substr(0, loc));
         int remLen = s.size() - (loc + 1); // 앞에서부터 loc 까지의 숫자가 확정됐다고 가정했을때, 나머지 확정해야 하는 자리수
             for(int locNum = s[loc] - '0' + 1; locNum < 10; locNum++){
-            int frontLine = initLine + numLine[locNum];
+            int frontLine = initLine + numLine[locNum]; // 앞에서부터 loc 자리에 locNum이 왔을때 loc자리까지 총 선분의 수
+            /*
+            remLine = totLine - frontLine; // 앞부분을 확정했을 때 미확정 뒷부분의 총 선분의 수
+            즉, dp[remLen - 1][totLine - remLine] 의 의미는 remLen 길이의 remLine 선분 개수로 만들 수 있는 조합이 있는지 확인한다는 의미이다.
+            만약 dp[remLen - 1][totLine - remLine] 이 갱신된 적 없는 1e16 이라면 해당 글자 수로는 해당 선분 개수의 조합을 만들 수 없다는 의미이다.
+            */
             if(remLen){
                 if(frontLine <= totLine && dp[remLen - 1][frontLine] < 1e16){
                     string ret = s.substr(0, loc) + char(locNum + '0') + covertString(dp[remLen - 1][frontLine], remLen);
@@ -45,7 +50,7 @@ bool isBigger(){
                     return true;
                 }
             }
-            else{
+            else{ // 1의 자리를 탐색할 때
                 string ret = s.substr(0, loc) + char(locNum + '0');
                 if(totLine == getLine(ret)){
                     ans = stoll(ret) - stoll(s);
@@ -78,7 +83,7 @@ int main() {
         }
     }
     if(isBigger()) cout << ans;
-    else{
+    else{ // 이미 dp 초기화 과정에서 특정 조합에서의 최저값을 구했으므로 그대로 사용
         ll maxNum = 1;
         for(int i=0; i<len; i++) maxNum *= 10;
         cout << dp[len - 1][0] + (maxNum - stoll(s));
