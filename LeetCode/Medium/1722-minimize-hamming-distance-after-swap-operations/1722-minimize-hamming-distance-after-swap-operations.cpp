@@ -28,14 +28,11 @@ public:
                 if(source[i] != target[i]) ans++;
             }
             else{
-                unordered_map<int, int> um1, um2;
-                for(auto idx : gp[i]){
-                    um1[source[idx]]++;
-                    um2[target[idx]]++;
-                }
-                int cntZero = 0;
-                for(auto n : um1) if(um2[n.first]) cntZero += min(n.second, um2[n.first]);
-                ans += gp[i].size() - cntZero;
+                unordered_map<int, int> um;
+                for(auto idx : gp[i]) {um[source[idx]]++; um[target[idx]]--;}
+                int cnt = 0;
+                for(auto n : um) if(n.second > 0) cnt += n.second;
+                ans += cnt;
             }
         }
         return ans;
