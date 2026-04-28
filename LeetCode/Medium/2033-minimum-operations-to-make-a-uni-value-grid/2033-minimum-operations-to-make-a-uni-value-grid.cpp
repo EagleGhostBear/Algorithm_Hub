@@ -8,21 +8,10 @@ public:
         }
         sort(v.begin(), v.end());
         int mod = v.front() % x;
-        if(v.back() % x != mod) return -1;
-
-        pair<int, int> left = {0, 1}; // {idx, cnt}
-        pair<int, int> right = {v.size() - 1, 1};
-        while(left.first < right.first){
-            if(left.second <= right.second){
-                ans += (v[left.first + 1] - v[left.first]) / x * left.second++;
-                left.first++;
-                if(v[left.first] % x != mod) return -1;
-            }
-            else{
-                ans += (v[right.first] - v[right.first - 1]) / x * right.second++;
-                right.first--;
-                if(v[right.first] % x != mod) return -1;
-            }
+        int mid = v.size() / 2;
+        for(int i=0; i<v.size(); i++){
+            if(v[i] % x != mod) return -1;
+            ans += abs(v[mid] - v[i]) / x;
         }
         return ans;
     }
