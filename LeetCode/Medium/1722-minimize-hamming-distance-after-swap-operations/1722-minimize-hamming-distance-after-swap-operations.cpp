@@ -24,7 +24,8 @@ public:
         vector<vector<int>> gp(sz, vector<int>());
         for(int i=0; i<sz; i++) gp[find(i)].push_back(i);
         for(int i=0; i<sz; i++){
-            if(gp[i].size() == 1){
+            if(gp[i].size() == 0) continue;
+            else if(gp[i].size() == 1){
                 if(source[i] != target[i]) ans++;
             }
             else{
