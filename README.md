@@ -9,6 +9,7 @@
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
+| [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -29,6 +30,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
+| [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -59,4 +61,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 <!---LeetCode Topics End-->
