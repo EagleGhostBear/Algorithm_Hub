@@ -8,7 +8,7 @@ public:
         }
         sort(v.begin(), v.end());
         int mod = v.front() % x;
-        for(int i=1; i<v.size(); i++) if(v[i] % x != mod) return -1;
+        if(v.back() % x != mod) return -1;
 
         pair<int, int> left = {0, 1}; // {idx, cnt}
         pair<int, int> right = {v.size() - 1, 1};
@@ -16,10 +16,12 @@ public:
             if(left.second <= right.second){
                 ans += (v[left.first + 1] - v[left.first]) / x * left.second++;
                 left.first++;
+                if(v[left.first] % x != mod) return -1;
             }
             else{
                 ans += (v[right.first] - v[right.first - 1]) / x * right.second++;
                 right.first--;
+                if(v[right.first] % x != mod) return -1;
             }
         }
         return ans;
