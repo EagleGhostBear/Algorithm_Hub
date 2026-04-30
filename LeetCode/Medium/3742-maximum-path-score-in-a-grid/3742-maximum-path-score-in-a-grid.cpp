@@ -11,17 +11,18 @@ public:
         }
         for(int i=1; i<rs; i++){
             for(int j=0; j<cs; j++){
+                int limit = (k - i - j >= 0 ? k - i - j : 0);
                 if(grid[i][j]){
                     // 상
-                    for(int t=k - 1; t>-1; t--) dp[1][j][t] = max(dp[1][j][t], dp[0][j][t + 1] + grid[i][j]);
+                    for(int t=k - 1; t>=limit; t--) dp[1][j][t] = max(dp[1][j][t], dp[0][j][t + 1] + grid[i][j]);
                     // 좌
-                    if(j) for(int t=k - 1; t>-1; t--) dp[1][j][t] = max(dp[1][j][t], dp[1][j - 1][t + 1] + grid[i][j]);
+                    if(j) for(int t=k - 1; t>=limit; t--) dp[1][j][t] = max(dp[1][j][t], dp[1][j - 1][t + 1] + grid[i][j]);
                 }
                 else{
                     // 상
-                    for(int t=k; t>-1; t--) dp[1][j][t] = max(dp[1][j][t], dp[0][j][t]);
+                    for(int t=k; t>=limit; t--) dp[1][j][t] = max(dp[1][j][t], dp[0][j][t]);
                     // 좌
-                    if(j) for(int t=k; t>-1; t--) dp[1][j][t] = max(dp[1][j][t], dp[1][j - 1][t]);
+                    if(j) for(int t=k; t>=limit; t--) dp[1][j][t] = max(dp[1][j][t], dp[1][j - 1][t]);
                 }
             }
             swap(dp[0], dp[1]);
