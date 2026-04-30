@@ -24,8 +24,8 @@ public:
                     if(j) for(int t=k; t>-1; t--) dp[1][j][t] = max(dp[1][j][t], dp[1][j - 1][t]);
                 }
             }
-            dp[0] = dp[1];
-            dp[1].assign(cs, vector<int>(k + 1, -1e4));
+            swap(dp[0], dp[1]);
+            for(int j=0; j<cs; j++) fill(dp[1][j].begin(), dp[1][j].end(), -1e4);
         }
         for(int i=0; i<=k; i++) ans = max(ans, dp[0][cs - 1][i]);
         if(ans < 0) return -1;
