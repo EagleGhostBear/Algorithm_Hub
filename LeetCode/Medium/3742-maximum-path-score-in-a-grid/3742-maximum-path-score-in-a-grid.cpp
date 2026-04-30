@@ -6,31 +6,17 @@ public:
         if(rs == 1 && cs == 1) return 0;
         vector<vector<vector<int>>> dp(rs, vector<vector<int>>(cs, vector<int>(k + 1, -1e4)));
         dp[0][0][k] = 0;
-        queue<pair<int, int>> q;
-        q.push({0, 0});
-        int dr[] = {0, 1};
-        int dc[] = {1, 0};
-        while(q.size()){
-            pair<int, int> now = q.front(); q.pop();
-            
-            for(int i=0; i<2; i++){
-                int nr = now.first + dr[i];
-                int nc = now.second + dc[i];
-                if(nr >= rs || nc >= cs) continue;
-                bool is_bigger = false;
-                if(grid[nr][nc]){
-                    for(int j=k - 1; j>-1; j--) if(dp[nr][nc][j] < dp[now.first][now.second][j + 1] + grid[nr][nc]){
-                        dp[nr][nc][j] = dp[now.first][now.second][j + 1] + grid[nr][nc];
-                        is_bigger = true;
-                    }
-                }
-                else{
-                    for(int j=k; j>-1; j--) if(dp[nr][nc][j] < dp[now.first][now.second][j]){
-                        dp[nr][nc][j] = dp[now.first][now.second][j];
-                        is_bigger = true;
-                    }
-                }
-                if(is_bigger) q.push({nr, nc});
+        for(int i=0; i<rs; i++) for(int j=0; j<cs; j++){
+            if(grid[i][j]){
+                // 상
+                if(i) for(int t=k - 1; t>-1; t--) dp[i][j][t] = max(dp[i][j][t], dp[i - 1][j][t + 1] + grid[i][j]);
+                // 좌
+                if(j) for(int t=k - 1; t>-1; t--) dp[i][j][t] = max(dp[i][j][t], dp[i][j - 1][t + 1] + grid[i][j]);
+            }
+            else{
+                // 상
+                if(i) for(int t=k; t>-1; t--) dp[i][j][t] = max(dp[i][j][t], dp[i - 1][j][t]);
+                if(j) for(int t=k; t>-1; t--) dp[i][j][t] = max(dp[i][j][t], dp[i][j - 1][t]);
             }
         }
         for(int i=0; i<=k; i++) ans = max(ans, dp[rs - 1][cs - 1][i]);
