@@ -20,6 +20,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0171-excel-sheet-column-number](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0171-excel-sheet-column-number/) | Easy |
+| [0796-rotate-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0796-rotate-string/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2833-furthest-point-from-origin/) | Easy |
@@ -97,4 +98,8 @@
 | [0396-rotate-function](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0788-rotated-digits/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
