@@ -10,6 +10,7 @@
 | [0396-rotate-function](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -74,6 +75,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Binary Search
@@ -86,6 +88,7 @@
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0061-rotate-list/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
