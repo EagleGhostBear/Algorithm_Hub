@@ -11,6 +11,7 @@
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
+| [1914-cyclically-rotating-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -76,6 +77,7 @@
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
 | [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
+| [1914-cyclically-rotating-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1914-cyclically-rotating-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Binary Search
@@ -119,4 +121,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0061-rotate-list/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1914-cyclically-rotating-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1914-cyclically-rotating-a-grid/) | Medium |
 <!---LeetCode Topics End-->
