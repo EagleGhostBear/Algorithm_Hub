@@ -18,6 +18,7 @@
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
 | [2615-sum-of-distances](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -109,6 +110,7 @@
 | ------- | ------- |
 | [0396-rotate-function](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0788-rotated-digits/) | Medium |
+| [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 ## String Matching
 | Problem Name | Difficulty |
