@@ -20,6 +20,7 @@
 | [2553-separate-the-digits-in-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
 | [2615-sum-of-distances](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -45,6 +46,7 @@
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [2615-sum-of-distances](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2615-sum-of-distances/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 | [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## Math
@@ -62,6 +64,7 @@
 | ------- | ------- |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2784-check-if-array-is-good/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
