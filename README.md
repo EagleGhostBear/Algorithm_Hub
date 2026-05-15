@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0048-rotate-image/) | Medium |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0396-rotate-function](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -85,6 +86,7 @@
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3488-closest-equal-element-queries/) | Medium |
 ## Two Pointers
