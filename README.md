@@ -9,6 +9,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0169-majority-element](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0169-majority-element/) | Easy |
 | [0396-rotate-function](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0396-rotate-function/) | Medium |
+| [1306-jump-game-iii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1306-jump-game-iii/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1861-rotating-the-box/) | Medium |
@@ -101,6 +102,7 @@
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1306-jump-game-iii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1306-jump-game-iii/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -134,4 +136,8 @@
 | ------- | ------- |
 | [1914-cyclically-rotating-a-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1914-cyclically-rotating-a-grid/) | Medium |
 | [2553-separate-the-digits-in-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/2553-separate-the-digits-in-an-array/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1306-jump-game-iii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1306-jump-game-iii/) | Medium |
 <!---LeetCode Topics End-->
