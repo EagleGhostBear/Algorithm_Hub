@@ -10,7 +10,8 @@ public:
         for(int i=0; i<arr1.size(); i++){ // 400,000
             int now = arr1[i];
             while(now){
-                um[now] = true;
+                if(um[now]) break;
+                else um[now] = true;
                 now /= 10;
             }
         }
