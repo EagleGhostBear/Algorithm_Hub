@@ -22,15 +22,15 @@ public:
             TreeNode* now = new TreeNode(descriptions[i][0]);
 
             // 부모가 이미 정의된게 있는지 확인
-            if(um[descriptions[i][0]] != nullptr) now = um[descriptions[i][0]];
+            if(um.find(descriptions[i][0]) != um.end()) now = um[descriptions[i][0]];
 
             // 자식이 이미 정의된게 있는지 확인
             if(descriptions[i][2]){
-                if(um[descriptions[i][1]] != nullptr) now->left = um[descriptions[i][1]];
+                if(um.find(descriptions[i][1]) != um.end()) now->left = um[descriptions[i][1]];
                 else now->left = new TreeNode(descriptions[i][1]);
             }
             else{
-                if(um[descriptions[i][1]] != nullptr) now->right = um[descriptions[i][1]];
+                if(um.find(descriptions[i][1]) != um.end()) now->right = um[descriptions[i][1]];
                 else now->right = new TreeNode(descriptions[i][1]);
             }
             um[descriptions[i][0]] = now;
