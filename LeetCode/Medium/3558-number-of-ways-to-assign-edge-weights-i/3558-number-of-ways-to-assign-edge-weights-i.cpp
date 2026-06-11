@@ -1,9 +1,9 @@
 class Solution {
 public:
     int assignEdgeWeights(vector<vector<int>>& edges) {
-        int ans = 1, depth = 0, mod = 1e9 + 7;
-        vector<vector<int>> v(1e5 + 1, vector<int>());
-        vector<bool> visited(1e5 + 1);
+        int ans = 1, depth = 0, mod = 1e9 + 7, sz = edges.size() + 1; 
+        vector<vector<int>> v(sz + 1, vector<int>());
+        vector<bool> visited(sz + 1);
         for(int i=0; i<edges.size(); i++){
             v[edges[i][0]].push_back(edges[i][1]);
             v[edges[i][1]].push_back(edges[i][0]);
