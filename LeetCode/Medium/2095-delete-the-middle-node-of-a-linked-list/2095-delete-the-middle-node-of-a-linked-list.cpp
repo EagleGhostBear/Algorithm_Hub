@@ -11,17 +11,18 @@
 class Solution {
 public:
     ListNode* deleteMiddle(ListNode* head) {
-        vector<ListNode*> v;
-        queue<ListNode*> q;
-        if(head) q.push(head);
-        while(q.size()){
-            ListNode* now = q.front(); q.pop();
-            v.push_back(now);
-            if(now->next) q.push(now->next);
+        if(head->next == nullptr) return nullptr;
+        ListNode* slowP = head;
+        ListNode* fastP = head;
+        while(fastP->next){
+            int cnt = 2;
+            while(cnt-- && fastP->next) fastP = fastP->next;
+            if(fastP->next) slowP = slowP->next;
+            else{
+                if(slowP->next) slowP->next = slowP->next->next;
+                else slowP->next = nullptr;
+            }
         }
-        if(v.size() == 1) return nullptr;
-        int mid = v.size() / 2;
-        v[mid - 1]->next = v[mid]->next;
         return head;
     }
 };
