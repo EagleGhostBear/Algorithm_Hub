@@ -50,4 +50,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1331-rank-transform-of-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1291-sequential-digits](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1291-sequential-digits/) | Medium |
 <!---LeetCode Topics End-->
