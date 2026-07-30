@@ -29,9 +29,19 @@
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3532-path-existence-queries-in-a-graph-i/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3532-path-existence-queries-in-a-graph-i/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2685-count-the-number-of-complete-components](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/2685-count-the-number-of-complete-components/) | Medium |
 <!---LeetCode Topics End-->
