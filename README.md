@@ -21,6 +21,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3532-path-existence-queries-in-a-graph-i/) | Medium |
@@ -74,6 +75,7 @@
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
@@ -87,4 +89,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1081-smallest-subsequence-of-distinct-characters/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 <!---LeetCode Topics End-->
