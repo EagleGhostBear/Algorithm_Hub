@@ -6,6 +6,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
@@ -25,6 +26,7 @@
 | [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3532-path-existence-queries-in-a-graph-i/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Hash Table
@@ -95,4 +97,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3513-number-of-unique-xor-triplets-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
 <!---LeetCode Topics End-->
