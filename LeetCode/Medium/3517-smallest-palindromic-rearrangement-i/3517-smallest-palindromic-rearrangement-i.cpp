@@ -1,15 +1,14 @@
 class Solution {
 public:
     string smallestPalindrome(string s) {
-        map<int, int> m;
-        for(auto c : s) m[c - 'a']++;
+        vector<int> alp(26);
+        for(auto c : s) alp[c - 'a']++;
         string ans = "";
         int mid = 27;
-        for(auto c : m){
-            if(c.second % 2){ mid = c.first; c.second--; }
-            c.second /= 2;
-            while(c.second--) ans += c.first + 'a';
-            
+        for(int i=0; i<26; i++){
+            if(alp[i] % 2){ mid = i; alp[i]--; }
+            alp[i] /= 2;
+            while(alp[i]--) ans += i + 'a';
         }
         int idx = ans.size() - 1;
         if(mid < 27) ans += mid + 'a';
