@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3513-number-of-unique-xor-triplets-i/) | Medium |
@@ -33,6 +34,7 @@
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/0628-maximum-product-of-three-numbers/) | Easy |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 | [1260-shift-2d-grid](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1260-shift-2d-grid/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -136,6 +138,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,12 +147,15 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 ## Game Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
