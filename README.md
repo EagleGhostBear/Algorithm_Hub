@@ -19,6 +19,7 @@
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Easy/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
@@ -138,6 +139,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
 ## Recursion
@@ -163,4 +165,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
