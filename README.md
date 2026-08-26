@@ -96,6 +96,7 @@
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -158,4 +159,8 @@
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0877-stone-game/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
 <!---LeetCode Topics End-->
