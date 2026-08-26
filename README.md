@@ -145,6 +145,7 @@
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0024-swap-nodes-in-pairs/) | Medium |
 | [0486-predict-the-winner](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0486-predict-the-winner/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
@@ -165,6 +166,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0024-swap-nodes-in-pairs](https://github.com/EagleGhostBear/Algorithm_Hub/tree/main/LeetCode/Medium/0024-swap-nodes-in-pairs/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
